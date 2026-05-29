@@ -8,7 +8,7 @@ Wearable devices provide a non-invasive way to monitor daily activity and rest, 
 Because the dataset does not include clinical sleep staging (like REM duration), we engineered a composite **Sleep Quality Score (0-100)** using available metrics such as Total Sleep Time, Latency Efficiency, Wake After Sleep Onset, and Sleep Fragmentation. Using Multiple Linear Regression and Lasso Regularization, we evaluate which daytime physiological features (heart rate, step count, heavy activity duration) hold the strongest predictive power and statistical association with overnight restfulness.
 
 ## Repository Structure
-* `data/` : Directory containing the 22 user folders from the MMASH dataset (ignored via `.gitignore` to prevent pushing large files).
+* `data/` : Directory containing the 22 user folders from the MMASH dataset.
 * `COGS109_Final_Project.ipynb` : The primary Jupyter Notebook containing data aggregation, cleaning, Exploratory Data Analysis (EDA), and regression modeling.
 
 ## Dataset
